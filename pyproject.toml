@@ -1,0 +1,16 @@
+[project]
+name = "av-data-engine"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "inference-sdk>=1.8.5",
+    "numpy>=2.3.5",
+    "opencv-python-headless>=5.1.0.95",
+    "pydantic>=2.14.4",
+    "python-dotenv>=1.2.4",
+    "roboflow>=1.7.3",
+    "supervision>=0.30.9",
+    "ultralytics>=8.4.215",
+    "wandb>=0.31.0",
+]
